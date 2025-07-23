@@ -1,9 +1,11 @@
-📊Data Analysis on Sales Dataset Using Python
+📊 Data Analysis on Sales Dataset Using Machine Learning
+
 🧾 Project by: *Firdaush Alam*  
 📅 Date: *23-07-2025*  
 🧠 Tools: *Pandas, Matplotlib, Seaborn, Plotly*
 
-🔍 Project Overview
+🔍 Project Overview:
+
 This project performs an end-to-end **exploratory data analysis (EDA)** and **visual storytelling** using a real-world sales dataset. The goal is to generate actionable insights by cleaning the data, visualizing key patterns, and preparing for machine learning applications such as forecasting and segmentation.
 
 🧰 Tech Stack:
@@ -16,7 +18,8 @@ This project performs an end-to-end **exploratory data analysis (EDA)** and **vi
 | Plotly      | Interactive dashboard components   |
 | Jupyter NB  | Modular coding & documentation     |
 
-📁 Dataset Summary
+📁 Dataset Summary:
+
 The dataset contains **1000 rows and 14 columns**, featuring:
 - `Product_ID`, `Sale_Date`, `Sales_Rep`, `Region`  
 - `Sales_Amount`, `Quantity_Sold`, `Unit_Cost`, `Unit_Price`  
@@ -24,7 +27,8 @@ The dataset contains **1000 rows and 14 columns**, featuring:
 
 No missing values were found during analysis.
 
-📊 Key Components
+📊 Key Components:
+
 1. ✅ Data Cleaning
 - Checked missing values (row-wise & column-wise)
 - Verified data types, duplicates, and value ranges
@@ -49,7 +53,6 @@ No missing values were found during analysis.
 - `Region_and_Sales_Rep` was used to create hybrid insights  
 - Sales metrics were melted into long-format for categorical comparison
 
----
 
 💡 Insights
 - **Furniture** was the most frequently sold product category  
@@ -57,15 +60,15 @@ No missing values were found during analysis.
 - **Returning customers** contributed equally to sales volume  
 - Discounts generally ranged from **0%–30%**, with a median of **15%**
 
----
+
 
 🚀 How to Run
-```bash
-git clone https://github.com/<your-username>/sales-data-analysis
+
+https://github.com/firdaush25/firdaush25-Data-Analysis-on-Sales-Data-Using-Machine-Learning.git
 cd sales-data-analysis
 pip install pandas matplotlib seaborn plotly jupyter
 jupyter notebook
-```
+
 🛠️ Future Additions
 - Sales forecasting using regression models  
 - Customer segmentation via clustering  
